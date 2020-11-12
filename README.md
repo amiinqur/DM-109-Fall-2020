@@ -1,5 +1,3 @@
-#DM 109 Fall 2020: Course Repository#
-###PROJECT MEMBERS###
 StdID | Name
 ------------ | -------------
 **63855** | **Amin M. Quraishi** <!--this is the group leader in bold-->
