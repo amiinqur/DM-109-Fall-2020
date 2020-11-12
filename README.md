@@ -3,8 +3,8 @@
 StdID | Name
 ------------ | -------------
 **63855** | **Amin M. Quraishi** <!--this is the group leader in bold-->
-63856 | Muhammad
-63857 | Tipu Pitu
+63856 | Muhammad Ahmad Quraishi
+63857 | Basil Quraishi
 <!-- Replace name and student ids with acutally group member names and ids-->
 
 ## Description ##
