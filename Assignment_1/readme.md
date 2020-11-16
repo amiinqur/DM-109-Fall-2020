@@ -1,4 +1,4 @@
-# DM 109 FALL 2020: Course Repository #
+# DM 109 FALL 2020: Assignment 1 #
 ### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
