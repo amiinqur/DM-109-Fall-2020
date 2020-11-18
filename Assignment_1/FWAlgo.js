@@ -42,4 +42,27 @@ function runFwAlgo(){
 	}
 	//Get Input from 
 }//end run
-	//end sol1
+
+function FwAlgo(graph){
+	//Implement your solution here
+	var temp=[];
+	var len=graph.length;
+	var i,j,k;
+	for(i=0;i<len;i++){
+		temp[i]=[];
+		for(j=0;j<len;j++){
+			temp[i][j]=graph[i][j];
+		}
+	}
+	for(k=0;k<len;k++){
+		for(i=0;i<len;i++){
+			for(j=0;j<len;j++){
+				temp[i][j]=(temp[i][j]!=0) || ((temp[i][k]!=0)&&(temp[k][j]!=0))?1:0;
+			}
+		}
+	}
+	return(temp);
+	//Mention reference where you got the solution
+	//Ref: http://https://www.geeksforgeeks.org/transitive-closure-of-a-graph/
+	//Ref: If you found any paper
+}	//end sol1
