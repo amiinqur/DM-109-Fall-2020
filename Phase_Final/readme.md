@@ -22,11 +22,7 @@ Time complexity of Warshall algorithm is quite exceptional in comparison to othe
 
 ## Problems Faced ##  
 
-**Problem 1: Unable to get random 0s and 1s**  
-In the beginning we were having a tough time getting random 0s and 1s into an array. Then we looked up on the internet and stumble upon the Math.Random() function in javascript. After applying the function correctly, we were able to generate random 0s and 1s for our 100x100 array.  
-
-**Problem 2: Not able to show the ouptput of each N**  
-We were stuck at a dead end when we tried to show the output value of each N in our HTML file. But then we got the solution; We were coding "divOutput.innerHTML="At n="+n;" and this line was just printing one line at the end instead of printing it 100 times. Then we changed it to "divOutput.innerHTML+="At n="+n;" and it worked and printed the output at every iteration.
-
-**Problem 3: Not being able to calculate the performance**  
-We used the performance.now() function to calculate the performance but we did not really now how to use the function. Then we researched upon it a bit and were able to successfully calculate the performance of the algorithm at each iteration.
+**Problem 1: Unable to plot the graph**  
+We used the PLotly library in our HTML file but the graph was not being plotted on the HTML page. The reason for this was that we were not using the correct link to download the PLotly libray in our HTMl file. After correcting the link, we were able to plot the graph successfully.
+**Problem 2: Not able to plot a line graph**  
+We were finally able to plot a graph, but it was not a line graph as we wanted. It was a scattered graph and it did not really gave an elaborated view of the findings. We resolved the problem by changing the type from scatter to line graph. Then the plotted graph was a line graph with correct axis and data.
