@@ -1,4 +1,4 @@
-# DM 109 FALL 2020: Phase 1 #
+# DM 109 FALL 2020: Project Phase 1 #
 ### PROJECT MEMBERS ###
 StdID | Name
 ------------ | -------------
@@ -7,6 +7,16 @@ StdID | Name
 63857 | Basil Quraishi
 <!-- Replace name and student ids with acutally group member names and ids-->
 
-## Description ##
-This repository contains assignments and project submitted to DM course offered in Fall 2020 at PafKiet.
+## Time Complexity ##
+
+**Time Complexity of Floyd-Warshall Algorithm: O(n^3)**  
+
+
+## Analysis ## 
+In the second phase of the project we were required to find the performance of warshall algortihm at different sizes of matrix. After successfully running our program, we deduced that as the matrix size increased the time taken also increased. Therefore, the performance of warshall algortihm decreases in terms of time as the input size increases. 
+
+## Problems Faced ##  
+
+**Problem 1: Unable to get random 0s and 1s**  
+In the beginning we were having a tough time getting random 0s and 1s into an array. Then we looked up on the internet and stumble upon the Math.Random() function in javascript. After applying the function correctly, we were able to generate random 0s and 1s for our 100x100 array.  
 
